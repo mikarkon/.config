@@ -1,20 +1,20 @@
+image=~/.config/hypr/doomed_novosib.jpg
 daemonize
 show-failed-attempts
 clock
-screenshot
-effect-blur=9x5
+effect-blur=3x3
 effect-vignette=0.5:0.5
-color=1f1d2e80
-font="Inter"
+color=1c032c
+font=Dejavu Sans Mono
 indicator
-indicator-radius=200
-indicator-thickness=20
+indicator-radius=140
+indicator-thickness=10
 line-color=1f1d2e
-ring-color=191724
+ring-color=19141c
 inside-color=1f1d2e
-key-hl-color=eb6f92
-separator-color=00000000
-text-color=e0def4
+key-hl-color=e2cdf4
+#separator-color=00000000
+text-color=e2cdf4
 text-caps-lock-color=""
 line-ver-color=eb6f92
 ring-ver-color=eb6f92
@@ -29,10 +29,10 @@ ring-clear-color=9ccfd8
 line-clear-color=1f1d2e
 line-wrong-color=1f1d2e
 bs-hl-color=31748f
-grace=2
 grace-no-mouse
 grace-no-touch
-datestr=%a, %B %e
-timestr=%I:%M %p
+datestr=%a, %d.%m.%Y
+timestr=%H:%M
 fade-in=0.2
+timeout 0
 ignore-empty-password
