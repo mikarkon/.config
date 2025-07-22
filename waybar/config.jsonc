@@ -59,8 +59,8 @@
         "device": "intel_backlight",
         "format": "{icon} {percent}%",
         "format-icons": ["󰃞", "󰃟", "󰃠"],
-        "on-scroll-up": "brightnessctl set 1%+",
-        "on-scroll-down": "brightnessctl set 1%-",
+        "on-scroll-down": "brightnessctl set 1%+",
+        "on-scroll-up": "brightnessctl set 1%-",
         "min-length": 6
     },
 
@@ -82,8 +82,8 @@
         "tooltip": false,
         "format-muted": " Muted",
         "on-click": "pamixer -t",
-        "on-scroll-up": "pamixer -i 5",
-        "on-scroll-down": "pamixer -d 5",
+        "on-scroll-down": "pamixer -i 5",
+        "on-scroll-up": "pamixer -d 5",
         "scroll-step": 5,
         "format-icons": {
             "headphone": "",
@@ -101,8 +101,8 @@
         "format-source": " {volume}%",
         "format-source-muted": " Muted",
         "on-click": "pamixer --default-source -t",
-        "on-scroll-up": "pamixer --default-source -i 5",
-        "on-scroll-down": "pamixer --default-source -d 5",
+        "on-scroll-down": "pamixer --default-source -i 5",
+        "on-scroll-up": "pamixer --default-source -d 5",
         "scroll-step": 5
     },
     
@@ -110,7 +110,8 @@
         "thermal-zone": 1,
         "format": "{temperatureC}°C ",
         "critical-threshold": 80,
-        "format-critical": "{temperatureC}°C "
+        "format-critical": "{temperatureC}°C ",
+        "hwmon-path": "/sys/class/hwmon/hwmon4/temp1_input"
     },
 
     "network": {
