@@ -20,6 +20,10 @@ hl.config({
 
     misc = {
         disable_hyprland_logo = true,
+        -- Если hyprlock умер/был убит, не оставляем сессию "запертой" без
+        -- lock-экрана: следующий hyprlock заменяет "призрачный" лок,
+        -- а не получает "denied" и умирает сразу.
+        allow_session_lock_restore = true,
     },
 
     -- See https://wiki.hypr.land/configuring/layouts/dwindle-layout/ for more
