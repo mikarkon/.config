@@ -24,6 +24,10 @@ hl.config({
         -- lock-экрана: следующий hyprlock заменяет "призрачный" лок,
         -- а не получает "denied" и умирает сразу.
         allow_session_lock_restore = true,
+        -- Будить мониторы (dpms off) вводом: клавиша/мышь. По умолчанию false
+        -- (в 0.57+) — без этого экран после погасания не включался от клавиш.
+        key_press_enables_dpms = true,
+        mouse_move_enables_dpms = true,
     },
 
     -- See https://wiki.hypr.land/configuring/layouts/dwindle-layout/ for more
